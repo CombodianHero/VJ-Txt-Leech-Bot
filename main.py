@@ -7,7 +7,7 @@ import os
 API_ID = 21705536
 API_HASH = "c5bb241f6e3ecf33fe68a444e288de2d"
 BOT_TOKEN = "7740653447:AAFbJ_iAr__2LgYO0TZIDkle81CUsayj4us"
-FORCE_CHANNEL = "@+UqRzCwjJvsw3MDJl"
+FORCE_CHANNEL = "@engineersbabu"
 
 # Initialize the bot client
 app = Client("force_join_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)

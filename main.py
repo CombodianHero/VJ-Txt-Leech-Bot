@@ -99,7 +99,7 @@ async def pw_handler(bot, message: Message):
 
 # -------------------- Restrict Everything Else --------------------
 @bot.on_message(
-    (filters.document | filters.video | filters.audio | filters.photo | filters.text | filters.txt)
+    (filters.document | filters.video | filters.audio | filters.photo | filters.text)
     & filters.private
     & ~filters.command(["start"])
 )

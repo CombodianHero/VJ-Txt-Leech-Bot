@@ -10,7 +10,7 @@ from pyrogram.types import (
 # Bot configuration
 API_ID = 21705536  # Replace with your API ID
 API_HASH = "c5bb241f6e3ecf33fe68a444e288de2d"  # Replace with your API hash
-BOT_TOKEN = "your_bot_token"  # Replace with your bot token
+BOT_TOKEN = "7453727036:AAEhQ--nqVEJWBuRZ_p_4qjVDf8EF0bB8js"  # Replace with your bot token
 
 # Initialize the Pyrogram client
 app = Client("channel_forwarder_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
